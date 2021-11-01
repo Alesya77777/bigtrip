@@ -1,0 +1,30 @@
+{
+  "name": "bigtrip",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "private": true,
+  "description": "Личный проект «Большое путешествие» от HTML Academy",
+  "scripts": {
+    "eslint": "eslint src/**/*.js",
+    "test": "npm run eslint",
+    "start": "browser-sync start --server  --no-ui --files \"src/**/*.js\""
+  },
+  "devDependencies": {
+    "browser-sync": "2.26.14",
+    "eslint": "7.18.0",
+    "eslint-config-htmlacademy": "2.0.0"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alesya77777/bigtrip.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alesya77777/bigtrip/issues"
+  },
+  "homepage": "https://github.com/Alesya77777/bigtrip#readme"
+}
